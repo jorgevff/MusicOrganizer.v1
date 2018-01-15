@@ -63,13 +63,13 @@ public class MusicOrganizer
     /**
      * metodo para comprobar un indice  valido
      */
-    public void checkIndex(int index)
+    public boolean validIndex(int index)
     {
+        boolean indice = false;
         if(index >= 0 && index < files.size()){
+            indice = true;
         }
-        else{
-            System.out.println("El indice no es valido");
-            System.out.println("Solo son validos los indices desde 0 a " + files.size());
-        }
+        
+        return indice;
     }
 }

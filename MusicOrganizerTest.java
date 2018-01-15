@@ -36,8 +36,7 @@ public class MusicOrganizerTest
         musicOrg1.addFile("oxigen");
         musicOrg1.addFile("el blus de mi escalera");
         musicOrg1.addFile("brothers in arms");
-        musicOrg1.checkIndex(3);
-        musicOrg1.checkIndex(5);
+       
        
     }
 
